@@ -2,9 +2,9 @@ import { useQuery } from "@tanstack/react-query";
 import { usePath } from "raviger";
 
 import { query } from "@/lib/request";
+import type { VTAEvaluation } from "@/lib/types/evaluation";
 
 import { evaluationRoutes } from "@/apis/evaluation";
-import type { VTAEvaluation } from "@/lib/types/evaluation";
 
 function useFacilityId(): string | null {
   const path = usePath();
