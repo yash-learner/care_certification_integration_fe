@@ -1,1 +1,5 @@
-{}
+{
+  "test_timer": "Test Timer",
+  "time_remaining": "Time Remaining",
+  "time_expired": "Time's up!"
+}
